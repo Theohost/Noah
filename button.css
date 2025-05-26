@@ -1,0 +1,14 @@
+.button {
+  display: inline-block; /* Para que o botão tenha largura e altura */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #4CAF50; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove a sublinhada padrão do link */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Indica que o elemento é clicável */
+}
+
+/* Estilos para quando o botão é hoverado */
+.button:hover {
+  background-color: #3e8e41; /* Cor de fundo mais escura */
+}

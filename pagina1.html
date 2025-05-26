@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pagina inicial</title>
+</head>
+<body>
+    <h1>Título Principal</h1>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #eef2f3, #8e9eab);
+      color: #333;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1f1f1f;
+      color: white;
+      padding: 20px 40px;
+      border-radius: 8px;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    main {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      color: #007bff;
+    }
+
+    .card p {
+      line-height: 1.5;
+    }
+
+    .card ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 10px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Minha Pagina</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="#">Projetos</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Quem Sou Eu</h2>
+      <p>Sejam muito bem vindos! Me chamo Noah Lugorets Drago, tenho 22 e moro em SP, numa casa LOTADA de animais, comecei a fazer lives no Facebook quando tinha em torno de 16 anos, depois disso fui pro Youtube e por fim aqui estou na Twitch a quase 1 ano, costumo fazer Lives de todos os jogos que meu pc aguentar rodar, além disso curto interagir com meu chat e deixar todos o mais a vontade possível em nossa jogatina diária, então chega junto e bora se divertir!!!</p>
+    </section>
+
+    <section class="card">
+      <h2>Twitch, WhatsApp, Discord.</h2>
+      <p>Minhas paginas Entrem e se divertam!!</p>
+      <ul>
+    <li><a href="https://discord.gg/AY6Pgajtu3">Discord</a></li>
+    <li><a href="https://chat.whatsapp.com/KGUm0Qq04T3573NKHPMP2E">WhatsApp</a></li>
+    <li><a href="https://twitch.tv/noahdrago">Twitch</a></li>
+     </ul>
+    </section>
+
+    <section class="card">
+      <h2>VIPs</h2>
+      <p>além de tudo que citei até agora o nosso servidor contém (VIPs)um cada vez melhor do que o outro</p>
+      <ol>
+         <li>VIP-DRAGON</li>
+         <li>VIP-NORDICO</li>
+         <li>VIP-</li>
+         <li>VIP-</li>
+         <li>VIP-</li>
+         <li>VIP-</li>
+         <li>VIP-</li>
+     </ol>
+
+    </section>
+
+    <section class="card">
+      <h2>Servidor/Regras</h2>
+      <p>além de vocês entrarem em nossos grupos vocês podem entrar em nosso Servidor de Minecraft</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Criado por Mim. Todos os direitos reservados.</p>
+  </footer>
+
+ </body>
+</html>
